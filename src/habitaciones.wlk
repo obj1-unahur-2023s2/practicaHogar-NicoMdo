@@ -65,8 +65,7 @@ class Dormitorio inherits Habitacion{
 		
 	method estanTodosEnlaHabitacion(){
 		return ocupantes.all({o=> self.ocupanteEstaEnElMomento(o)})
-	}			
-		
+	}					
 		
 }
 
@@ -95,9 +94,7 @@ object procentajeDeConfortExtra{
 	
 }
 
-//asdasd
-
-
+ 
 
 
 
